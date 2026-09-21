@@ -1,0 +1,521 @@
+{
+  "scope": {
+    "planned_records": 558,
+    "observed_records": 558,
+    "complete_records": 558,
+    "datasets": [
+      "BoolQ",
+      "StrategyQA"
+    ],
+    "models": [
+      "Qwen/Qwen3-VL-8B-Instruct",
+      "Qwen/Qwen3.5-9B",
+      "Pro/moonshotai/Kimi-K2.6",
+      "zai-org/GLM-4.5V"
+    ]
+  },
+  "completeness": {
+    "missing_records": 0,
+    "incomplete_observed_records": 0,
+    "failed_or_missing_observed_slots": 0,
+    "planned_calls": 2232
+  },
+  "pooled": {
+    "n": {
+      "stable_correct": 320,
+      "support_rescuable": 238
+    },
+    "stable_correct": {
+      "difference": 0.0671875,
+      "ci95": [
+        0.04231915729858224,
+        0.09288028439135318
+      ],
+      "clusters": 146
+    },
+    "support_rescuable": {
+      "difference": 0.19747899159663865,
+      "ci95": [
+        0.15217391304347827,
+        0.24385370851659333
+      ],
+      "clusters": 109
+    },
+    "interaction": {
+      "difference": 0.13029149159663866,
+      "ci95": [
+        0.0757892628979341,
+        0.18400849143070705
+      ],
+      "clusters": 194
+    }
+  },
+  "by_model": {
+    "Qwen/Qwen3-VL-8B-Instruct": {
+      "n": {
+        "stable_correct": 80,
+        "support_rescuable": 80
+      },
+      "stable_correct": {
+        "difference": 0.225,
+        "ci95": [
+          0.15625,
+          0.29375
+        ],
+        "clusters": 80
+      },
+      "support_rescuable": {
+        "difference": 0.425,
+        "ci95": [
+          0.34375,
+          0.50625
+        ],
+        "clusters": 80
+      },
+      "interaction": {
+        "difference": 0.19999999999999998,
+        "ci95": [
+          0.09146114299378291,
+          0.308648666865948
+        ],
+        "clusters": 160
+      }
+    },
+    "Qwen/Qwen3.5-9B": {
+      "n": {
+        "stable_correct": 80,
+        "support_rescuable": 58
+      },
+      "stable_correct": {
+        "difference": 0.00625,
+        "ci95": [
+          -0.04375,
+          0.05625
+        ],
+        "clusters": 80
+      },
+      "support_rescuable": {
+        "difference": 0.04310344827586207,
+        "ci95": [
+          -0.02586206896551724,
+          0.11206896551724138
+        ],
+        "clusters": 58
+      },
+      "interaction": {
+        "difference": 0.03685344827586207,
+        "ci95": [
+          -0.05194805194805195,
+          0.12486856721452548
+        ],
+        "clusters": 138
+      }
+    },
+    "Pro/moonshotai/Kimi-K2.6": {
+      "n": {
+        "stable_correct": 80,
+        "support_rescuable": 28
+      },
+      "stable_correct": {
+        "difference": -0.01875,
+        "ci95": [
+          -0.05,
+          0.0
+        ],
+        "clusters": 80
+      },
+      "support_rescuable": {
+        "difference": -0.03571428571428571,
+        "ci95": [
+          -0.14285714285714285,
+          0.05357142857142857
+        ],
+        "clusters": 28
+      },
+      "interaction": {
+        "difference": -0.016964285714285713,
+        "ci95": [
+          -0.12528138055746085,
+          0.08035714285714285
+        ],
+        "clusters": 108
+      }
+    },
+    "zai-org/GLM-4.5V": {
+      "n": {
+        "stable_correct": 80,
+        "support_rescuable": 72
+      },
+      "stable_correct": {
+        "difference": 0.05625,
+        "ci95": [
+          0.01875,
+          0.1
+        ],
+        "clusters": 80
+      },
+      "support_rescuable": {
+        "difference": 0.1597222222222222,
+        "ci95": [
+          0.09027777777777778,
+          0.2361111111111111
+        ],
+        "clusters": 72
+      },
+      "interaction": {
+        "difference": 0.10347222222222222,
+        "ci95": [
+          0.022596983661499783,
+          0.18857291486041267
+        ],
+        "clusters": 152
+      }
+    }
+  },
+  "by_dataset": {
+    "BoolQ": {
+      "n": {
+        "stable_correct": 160,
+        "support_rescuable": 124
+      },
+      "stable_correct": {
+        "difference": 0.071875,
+        "ci95": [
+          0.03273809523809524,
+          0.1111111111111111
+        ],
+        "clusters": 76
+      },
+      "support_rescuable": {
+        "difference": 0.24193548387096775,
+        "ci95": [
+          0.17803030303030304,
+          0.3064516129032258
+        ],
+        "clusters": 59
+      },
+      "interaction": {
+        "difference": 0.17006048387096775,
+        "ci95": [
+          0.09370483472556992,
+          0.24796030380733275
+        ],
+        "clusters": 96
+      }
+    },
+    "StrategyQA": {
+      "n": {
+        "stable_correct": 160,
+        "support_rescuable": 114
+      },
+      "stable_correct": {
+        "difference": 0.0625,
+        "ci95": [
+          0.030120481927710843,
+          0.0981012658227848
+        ],
+        "clusters": 70
+      },
+      "support_rescuable": {
+        "difference": 0.14912280701754385,
+        "ci95": [
+          0.08737864077669903,
+          0.211864406779661
+        ],
+        "clusters": 50
+      },
+      "interaction": {
+        "difference": 0.08662280701754385,
+        "ci95": [
+          0.013995348003888982,
+          0.1602235767991407
+        ],
+        "clusters": 98
+      }
+    }
+  },
+  "cells": {
+    "Qwen/Qwen3-VL-8B-Instruct": {
+      "BoolQ": {
+        "n": {
+          "stable_correct": 40,
+          "support_rescuable": 40
+        },
+        "stable_correct": {
+          "difference": 0.2625,
+          "ci95": [
+            0.1625,
+            0.3625
+          ],
+          "clusters": 40
+        },
+        "support_rescuable": {
+          "difference": 0.5125,
+          "ci95": [
+            0.4,
+            0.6375
+          ],
+          "clusters": 40
+        },
+        "interaction": {
+          "difference": 0.24999999999999994,
+          "ci95": [
+            0.09523809523809523,
+            0.4038382774982321
+          ],
+          "clusters": 80
+        }
+      },
+      "StrategyQA": {
+        "n": {
+          "stable_correct": 40,
+          "support_rescuable": 40
+        },
+        "stable_correct": {
+          "difference": 0.1875,
+          "ci95": [
+            0.1,
+            0.2875
+          ],
+          "clusters": 40
+        },
+        "support_rescuable": {
+          "difference": 0.3375,
+          "ci95": [
+            0.2375,
+            0.45
+          ],
+          "clusters": 40
+        },
+        "interaction": {
+          "difference": 0.15000000000000002,
+          "ci95": [
+            0.005028284098051561,
+            0.29268908598176885
+          ],
+          "clusters": 80
+        }
+      }
+    },
+    "Qwen/Qwen3.5-9B": {
+      "BoolQ": {
+        "n": {
+          "stable_correct": 40,
+          "support_rescuable": 30
+        },
+        "stable_correct": {
+          "difference": 0.0125,
+          "ci95": [
+            -0.075,
+            0.1
+          ],
+          "clusters": 40
+        },
+        "support_rescuable": {
+          "difference": 0.11666666666666667,
+          "ci95": [
+            0.05,
+            0.2
+          ],
+          "clusters": 30
+        },
+        "interaction": {
+          "difference": 0.10416666666666667,
+          "ci95": [
+            -0.010243810243810238,
+            0.22192298190939494
+          ],
+          "clusters": 70
+        }
+      },
+      "StrategyQA": {
+        "n": {
+          "stable_correct": 40,
+          "support_rescuable": 28
+        },
+        "stable_correct": {
+          "difference": 0.0,
+          "ci95": [
+            -0.05,
+            0.05
+          ],
+          "clusters": 40
+        },
+        "support_rescuable": {
+          "difference": -0.03571428571428571,
+          "ci95": [
+            -0.16071428571428573,
+            0.07142857142857142
+          ],
+          "clusters": 28
+        },
+        "interaction": {
+          "difference": -0.03571428571428571,
+          "ci95": [
+            -0.16964597176079735,
+            0.0894804318488528
+          ],
+          "clusters": 68
+        }
+      }
+    },
+    "Pro/moonshotai/Kimi-K2.6": {
+      "BoolQ": {
+        "n": {
+          "stable_correct": 40,
+          "support_rescuable": 14
+        },
+        "stable_correct": {
+          "difference": -0.0375,
+          "ci95": [
+            -0.1,
+            0.0
+          ],
+          "clusters": 40
+        },
+        "support_rescuable": {
+          "difference": 0.0,
+          "ci95": [
+            -0.17857142857142858,
+            0.14285714285714285
+          ],
+          "clusters": 14
+        },
+        "interaction": {
+          "difference": 0.0375,
+          "ci95": [
+            -0.1657608695652174,
+            0.20613107822410148
+          ],
+          "clusters": 54
+        }
+      },
+      "StrategyQA": {
+        "n": {
+          "stable_correct": 40,
+          "support_rescuable": 14
+        },
+        "stable_correct": {
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "clusters": 40
+        },
+        "support_rescuable": {
+          "difference": -0.07142857142857142,
+          "ci95": [
+            -0.17857142857142858,
+            0.0
+          ],
+          "clusters": 14
+        },
+        "interaction": {
+          "difference": -0.07142857142857142,
+          "ci95": [
+            -0.17857142857142858,
+            0.0
+          ],
+          "clusters": 54
+        }
+      }
+    },
+    "zai-org/GLM-4.5V": {
+      "BoolQ": {
+        "n": {
+          "stable_correct": 40,
+          "support_rescuable": 40
+        },
+        "stable_correct": {
+          "difference": 0.05,
+          "ci95": [
+            0.0125,
+            0.1
+          ],
+          "clusters": 40
+        },
+        "support_rescuable": {
+          "difference": 0.15,
+          "ci95": [
+            0.0625,
+            0.25
+          ],
+          "clusters": 40
+        },
+        "interaction": {
+          "difference": 0.09999999999999999,
+          "ci95": [
+            -0.0015789596263220762,
+            0.20950638792102205
+          ],
+          "clusters": 80
+        }
+      },
+      "StrategyQA": {
+        "n": {
+          "stable_correct": 40,
+          "support_rescuable": 32
+        },
+        "stable_correct": {
+          "difference": 0.0625,
+          "ci95": [
+            0.0125,
+            0.1375
+          ],
+          "clusters": 40
+        },
+        "support_rescuable": {
+          "difference": 0.171875,
+          "ci95": [
+            0.0625,
+            0.296875
+          ],
+          "clusters": 32
+        },
+        "interaction": {
+          "difference": 0.109375,
+          "ci95": [
+            -0.023224603166385364,
+            0.25003378378378327
+          ],
+          "clusters": 72
+        }
+      }
+    }
+  },
+  "leave_one_model_out": {
+    "Qwen/Qwen3-VL-8B-Instruct": {
+      "difference": 0.06769514767932489,
+      "ci95": [
+        0.013655490754123981,
+        0.12169998855381023
+      ],
+      "clusters": 187
+    },
+    "Qwen/Qwen3.5-9B": {
+      "difference": 0.15972222222222224,
+      "ci95": [
+        0.0967941809433472,
+        0.2226155254240046
+      ],
+      "clusters": 192
+    },
+    "Pro/moonshotai/Kimi-K2.6": {
+      "difference": 0.1327380952380952,
+      "ci95": [
+        0.07140602784855851,
+        0.1956152614098775
+      ],
+      "clusters": 193
+    },
+    "zai-org/GLM-4.5V": {
+      "difference": 0.14302208835341365,
+      "ci95": [
+        0.07932095028120105,
+        0.20550820890078547
+      ],
+      "clusters": 190
+    }
+  }
+}

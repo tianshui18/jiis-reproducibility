@@ -1,0 +1,152 @@
+{
+  "count": 10,
+  "policy": "retained as missing_invalid; no manual labels or extra retries",
+  "slots": [
+    {
+      "slot_id": "00e047c3282f578fa79612f5",
+      "model": "gpt-6-astra",
+      "case_id": "c-396fa231e570fb22",
+      "case_type": "controlled",
+      "presentation": "swapped",
+      "phase": "initial",
+      "transport_ok": false,
+      "error_type": "JSONDecodeError",
+      "http_status": null,
+      "validation_errors": [
+        "transport:JSONDecodeError"
+      ]
+    },
+    {
+      "slot_id": "6a8dbb9e7ac29a7a7059b3e4",
+      "model": "claude-opus-5",
+      "case_id": "c-840b62a9da061ef0",
+      "case_type": "controlled",
+      "presentation": "swapped",
+      "phase": "schema_recovery",
+      "transport_ok": true,
+      "error_type": null,
+      "http_status": null,
+      "validation_errors": [
+        "A: confidence must be an integer from 1 to 5",
+        "B: confidence must be an integer from 1 to 5"
+      ]
+    },
+    {
+      "slot_id": "4ce01585e59b8a5214213dad",
+      "model": "claude-opus-5",
+      "case_id": "c-e6823280fa95213a",
+      "case_type": "controlled",
+      "presentation": "original",
+      "phase": "schema_recovery",
+      "transport_ok": true,
+      "error_type": null,
+      "http_status": null,
+      "validation_errors": [
+        "A: invalid question_underspecified",
+        "B: invalid question_underspecified"
+      ]
+    },
+    {
+      "slot_id": "821719b18c4b09f18d881153",
+      "model": "claude-opus-5",
+      "case_id": "n-483adcef5ba52a3b",
+      "case_type": "natural",
+      "presentation": "swapped",
+      "phase": "initial",
+      "transport_ok": false,
+      "error_type": "JSONDecodeError",
+      "http_status": null,
+      "validation_errors": [
+        "transport:JSONDecodeError"
+      ]
+    },
+    {
+      "slot_id": "70adf7a30b9f2459c3600e3b",
+      "model": "claude-opus-5",
+      "case_id": "c-cbce7892b725af9d",
+      "case_type": "controlled",
+      "presentation": "original",
+      "phase": "schema_recovery",
+      "transport_ok": true,
+      "error_type": null,
+      "http_status": null,
+      "validation_errors": [
+        "A: invalid question_underspecified",
+        "B: invalid question_underspecified"
+      ]
+    },
+    {
+      "slot_id": "39cbc9118f2b8735cc1fa988",
+      "model": "claude-opus-5",
+      "case_id": "n-0359106b62265c44",
+      "case_type": "natural",
+      "presentation": "swapped",
+      "phase": "initial",
+      "transport_ok": false,
+      "error_type": "JSONDecodeError",
+      "http_status": null,
+      "validation_errors": [
+        "transport:JSONDecodeError"
+      ]
+    },
+    {
+      "slot_id": "df4821ee268072f1fb105c2e",
+      "model": "claude-opus-5",
+      "case_id": "c-8252f3c07bfd143b",
+      "case_type": "controlled",
+      "presentation": "swapped",
+      "phase": "schema_recovery",
+      "transport_ok": true,
+      "error_type": null,
+      "http_status": null,
+      "validation_errors": [
+        "A: invalid question_underspecified",
+        "B: invalid question_underspecified"
+      ]
+    },
+    {
+      "slot_id": "3b3e069417b76a2453949858",
+      "model": "claude-opus-5",
+      "case_id": "n-6ed92107ef984d37",
+      "case_type": "natural",
+      "presentation": "swapped",
+      "phase": "schema_recovery",
+      "transport_ok": true,
+      "error_type": null,
+      "http_status": null,
+      "validation_errors": [
+        "A: evidence_span is not an exact visible substring"
+      ]
+    },
+    {
+      "slot_id": "6a704b45304421b999406232",
+      "model": "claude-opus-5",
+      "case_id": "c-d31e20fe589fe99b",
+      "case_type": "controlled",
+      "presentation": "original",
+      "phase": "schema_recovery",
+      "transport_ok": true,
+      "error_type": null,
+      "http_status": null,
+      "validation_errors": [
+        "A: invalid question_underspecified",
+        "B: invalid question_underspecified"
+      ]
+    },
+    {
+      "slot_id": "5d8839db25a796748f52600f",
+      "model": "claude-opus-5",
+      "case_id": "c-c5fecef10b5f3080",
+      "case_type": "controlled",
+      "presentation": "original",
+      "phase": "schema_recovery",
+      "transport_ok": true,
+      "error_type": null,
+      "http_status": null,
+      "validation_errors": [
+        "A: confidence must be an integer from 1 to 5",
+        "B: confidence must be an integer from 1 to 5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+beautifulsoup4
+bibtexparser
+matplotlib
+numpy
+pandas
+Pillow
+pylatexenc
+PyMuPDF
+python-docx
+requests
+statsmodels

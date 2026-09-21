@@ -1,0 +1,389 @@
+{
+  "majority": {
+    "controlled_cases": 281,
+    "controlled_records": 737,
+    "controlled_sensitivity": {
+      "stable_correct": {
+        "difference": 0.033105022831050226,
+        "ci95": [
+          0.013245033112582781,
+          0.05306733136520108
+        ],
+        "n": 438,
+        "questions": 180
+      },
+      "support_rescuable": {
+        "difference": 0.1588628762541806,
+        "ci95": [
+          0.12157534246575342,
+          0.1959717607973422
+        ],
+        "n": 299,
+        "questions": 168
+      },
+      "interaction": {
+        "difference": 0.1257578534231304,
+        "ci95": [
+          0.08253709690388727,
+          0.16821461020089837
+        ],
+        "questions": 270
+      }
+    },
+    "natural_cases": 29,
+    "natural_sensitivity": {
+      "records": 143,
+      "questions": 29,
+      "difference": 0.08391608391608392,
+      "ci95": [
+        0.020833333333333332,
+        0.15384615384615385
+      ],
+      "clusters": 29
+    }
+  },
+  "pair_claude-opus-5__grok-4.6": {
+    "controlled_cases": 294,
+    "controlled_records": 754,
+    "controlled_sensitivity": {
+      "stable_correct": {
+        "difference": 0.032511210762331835,
+        "ci95": [
+          0.013452777747322026,
+          0.05269072034643454
+        ],
+        "n": 446,
+        "questions": 182
+      },
+      "support_rescuable": {
+        "difference": 0.1525974025974026,
+        "ci95": [
+          0.11563517915309446,
+          0.18888888888888888
+        ],
+        "n": 308,
+        "questions": 172
+      },
+      "interaction": {
+        "difference": 0.12008619183507076,
+        "ci95": [
+          0.07656799293485302,
+          0.1621571759171386
+        ],
+        "questions": 276
+      }
+    },
+    "natural_cases": 33,
+    "natural_sensitivity": {
+      "records": 163,
+      "questions": 33,
+      "difference": 0.0736196319018405,
+      "ci95": [
+        0.018292682926829267,
+        0.13499015375293463
+      ],
+      "clusters": 33
+    }
+  },
+  "pair_gpt-6-astra__claude-opus-5": {
+    "controlled_cases": 270,
+    "controlled_records": 717,
+    "controlled_sensitivity": {
+      "stable_correct": {
+        "difference": 0.03348729792147806,
+        "ci95": [
+          0.013413006156760597,
+          0.054187934002017914
+        ],
+        "n": 433,
+        "questions": 178
+      },
+      "support_rescuable": {
+        "difference": 0.16725352112676056,
+        "ci95": [
+          0.12842415782740793,
+          0.2045473297329733
+        ],
+        "n": 284,
+        "questions": 162
+      },
+      "interaction": {
+        "difference": 0.1337662232052825,
+        "ci95": [
+          0.08937730580036893,
+          0.17701152326457043
+        ],
+        "questions": 263
+      }
+    },
+    "natural_cases": 29,
+    "natural_sensitivity": {
+      "records": 143,
+      "questions": 29,
+      "difference": 0.08391608391608392,
+      "ci95": [
+        0.020833333333333332,
+        0.14896276595744642
+      ],
+      "clusters": 29
+    }
+  },
+  "pair_gpt-6-astra__grok-4.6": {
+    "controlled_cases": 275,
+    "controlled_records": 732,
+    "controlled_sensitivity": {
+      "stable_correct": {
+        "difference": 0.03356481481481482,
+        "ci95": [
+          0.013317191283292978,
+          0.053831076265146105
+        ],
+        "n": 432,
+        "questions": 177
+      },
+      "support_rescuable": {
+        "difference": 0.17,
+        "ci95": [
+          0.13183089641088033,
+          0.20701848563125605
+        ],
+        "n": 300,
+        "questions": 167
+      },
+      "interaction": {
+        "difference": 0.1364351851851852,
+        "ci95": [
+          0.09227115551380256,
+          0.17911414912548246
+        ],
+        "questions": 267
+      }
+    },
+    "natural_cases": 38,
+    "natural_sensitivity": {
+      "records": 187,
+      "questions": 38,
+      "difference": 0.058823529411764705,
+      "ci95": [
+        0.010526315789473684,
+        0.11290322580645161
+      ],
+      "clusters": 38
+    }
+  },
+  "single_claude-opus-5": {
+    "controlled_cases": 305,
+    "controlled_records": 767,
+    "controlled_sensitivity": {
+      "stable_correct": {
+        "difference": 0.03215077605321508,
+        "ci95": [
+          0.0133161199082903,
+          0.0522881780449406
+        ],
+        "n": 451,
+        "questions": 187
+      },
+      "support_rescuable": {
+        "difference": 0.15031645569620253,
+        "ci95": [
+          0.11363636363636363,
+          0.18539368532495476
+        ],
+        "n": 316,
+        "questions": 176
+      },
+      "interaction": {
+        "difference": 0.11816567964298745,
+        "ci95": [
+          0.07565781371149698,
+          0.15883166492958514
+        ],
+        "questions": 282
+      }
+    },
+    "natural_cases": 36,
+    "natural_sensitivity": {
+      "records": 178,
+      "questions": 36,
+      "difference": 0.06179775280898876,
+      "ci95": [
+        0.005649717514124294,
+        0.11931818181818182
+      ],
+      "clusters": 36
+    }
+  },
+  "single_gpt-6-astra": {
+    "controlled_cases": 279,
+    "controlled_records": 737,
+    "controlled_sensitivity": {
+      "stable_correct": {
+        "difference": 0.03341013824884793,
+        "ci95": [
+          0.013129037564692426,
+          0.053452115812917596
+        ],
+        "n": 434,
+        "questions": 179
+      },
+      "support_rescuable": {
+        "difference": 0.1716171617161716,
+        "ci95": [
+          0.1330128205128205,
+          0.20903010033444816
+        ],
+        "n": 303,
+        "questions": 170
+      },
+      "interaction": {
+        "difference": 0.1382070234673237,
+        "ci95": [
+          0.09411691422560792,
+          0.1809004706025964
+        ],
+        "questions": 271
+      }
+    },
+    "natural_cases": 43,
+    "natural_sensitivity": {
+      "records": 211,
+      "questions": 43,
+      "difference": 0.05687203791469194,
+      "ci95": [
+        0.009478672985781991,
+        0.10628019323671498
+      ],
+      "clusters": 43
+    }
+  },
+  "single_grok-4.6": {
+    "controlled_cases": 320,
+    "controlled_records": 802,
+    "controlled_sensitivity": {
+      "stable_correct": {
+        "difference": 0.03200883002207505,
+        "ci95": [
+          0.01327433628318584,
+          0.051362683438155136
+        ],
+        "n": 453,
+        "questions": 186
+      },
+      "support_rescuable": {
+        "difference": 0.14756446991404013,
+        "ci95": [
+          0.1125,
+          0.1813615947036401
+        ],
+        "n": 349,
+        "questions": 188
+      },
+      "interaction": {
+        "difference": 0.11555563989196507,
+        "ci95": [
+          0.07501296817643079,
+          0.15506607050773086
+        ],
+        "questions": 292
+      }
+    },
+    "natural_cases": 47,
+    "natural_sensitivity": {
+      "records": 232,
+      "questions": 47,
+      "difference": 0.05172413793103448,
+      "ci95": [
+        0.008620689655172414,
+        0.09871244635193133
+      ],
+      "clusters": 47
+    }
+  },
+  "tier_a_strict": {
+    "controlled_cases": 267,
+    "controlled_records": 713,
+    "controlled_sensitivity": {
+      "stable_correct": {
+        "difference": 0.033642691415313224,
+        "ci95": [
+          0.01366742596810934,
+          0.05393258426966292
+        ],
+        "n": 431,
+        "questions": 176
+      },
+      "support_rescuable": {
+        "difference": 0.16843971631205673,
+        "ci95": [
+          0.12863070539419086,
+          0.20676860767025473
+        ],
+        "n": 282,
+        "questions": 160
+      },
+      "interaction": {
+        "difference": 0.1347970248967435,
+        "ci95": [
+          0.08863245546502428,
+          0.17862883817023434
+        ],
+        "questions": 260
+      }
+    },
+    "natural_cases": 27,
+    "natural_sensitivity": {
+      "records": 133,
+      "questions": 27,
+      "difference": 0.09022556390977443,
+      "ci95": [
+        0.022556390977443608,
+        0.16417910447761194
+      ],
+      "clusters": 27
+    }
+  },
+  "two_valid": {
+    "controlled_cases": 271,
+    "controlled_records": 724,
+    "controlled_sensitivity": {
+      "stable_correct": {
+        "difference": 0.03356481481481482,
+        "ci95": [
+          0.013647360703812318,
+          0.05418760081084616
+        ],
+        "n": 432,
+        "questions": 177
+      },
+      "support_rescuable": {
+        "difference": 0.1678082191780822,
+        "ci95": [
+          0.12931034482758622,
+          0.20622738156784845
+        ],
+        "n": 292,
+        "questions": 164
+      },
+      "interaction": {
+        "difference": 0.13424340436326737,
+        "ci95": [
+          0.09027514033666749,
+          0.17874225970341842
+        ],
+        "questions": 264
+      }
+    },
+    "natural_cases": 29,
+    "natural_sensitivity": {
+      "records": 143,
+      "questions": 29,
+      "difference": 0.08391608391608392,
+      "ci95": [
+        0.020833333333333332,
+        0.1527777777777778
+      ],
+      "clusters": 29
+    }
+  }
+}

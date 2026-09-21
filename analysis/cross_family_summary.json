@@ -1,0 +1,438 @@
+{
+  "status": "partial",
+  "inventory": {
+    "planned": 3966,
+    "saved": 3966,
+    "valid": 3956,
+    "recovery_used": 64,
+    "invalid": 10
+  },
+  "routes": {
+    "gpt-6-astra -> gpt-6-astra": 1321,
+    "claude-opus-5 -> claude-opus-5": 1320,
+    "grok-4.6 -> grok-4.6": 1322
+  },
+  "usage": {
+    "gpt-6-astra": {
+      "slots": 1322,
+      "valid": 1321,
+      "prompt_tokens": 3186178,
+      "completion_tokens": 377951,
+      "total_tokens": 3564129
+    },
+    "claude-opus-5": {
+      "slots": 1322,
+      "valid": 1313,
+      "prompt_tokens": 1519863,
+      "completion_tokens": 662646,
+      "total_tokens": 2182509,
+      "claude_cache_creation_5_m_tokens": 637849,
+      "claude_cache_creation_1_h_tokens": 1020
+    },
+    "grok-4.6": {
+      "slots": 1322,
+      "valid": 1322,
+      "prompt_tokens": 1625679,
+      "completion_tokens": 1764217,
+      "total_tokens": 3471186,
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 3931945600
+    }
+  },
+  "model_diagnostics": {
+    "gpt-6-astra": {
+      "stable": 1230,
+      "position_unstable": 90,
+      "missing_invalid": 2,
+      "position_stability_rate_among_two_valid": 0.9318181818181818
+    },
+    "claude-opus-5": {
+      "stable": 1212,
+      "position_unstable": 92,
+      "missing_invalid": 18,
+      "position_stability_rate_among_two_valid": 0.9294478527607362
+    },
+    "grok-4.6": {
+      "stable": 1264,
+      "position_unstable": 58,
+      "missing_invalid": 0,
+      "position_stability_rate_among_two_valid": 0.9561270801815431
+    }
+  },
+  "candidate_consensus_tiers": {
+    "controlled": {
+      "tier_a_unanimous": 1017,
+      "unresolved": 125,
+      "tier_b_majority": 26,
+      "tier_c_two_valid": 14
+    },
+    "natural": {
+      "tier_a_unanimous": 82,
+      "unresolved": 47,
+      "tier_b_majority": 6,
+      "tier_c_two_valid": 5
+    }
+  },
+  "case_flow": {
+    "controlled": {
+      "full_cases": 591,
+      "tier_a_strict_cases": 267,
+      "majority_cases": 281,
+      "two_valid_cases": 271,
+      "unresolved_cases": 125
+    },
+    "natural": {
+      "full_cases": 70,
+      "tier_a_strict_cases": 27,
+      "majority_cases": 29,
+      "two_valid_cases": 29,
+      "unresolved_cases": 38
+    }
+  },
+  "semantic_validity_identification_intervals": {
+    "controlled": {
+      "strict_lower": 0.4517766497461929,
+      "unresolved_as_potentially_valid_upper": 0.6632825719120136
+    },
+    "natural": {
+      "strict_lower": 0.38571428571428573,
+      "unresolved_as_potentially_valid_upper": 0.9285714285714286
+    }
+  },
+  "strict_strata": {
+    "experimental_stratum:stable_correct": {
+      "retained": 431,
+      "not_retained": 84
+    },
+    "experimental_stratum:support_rescuable": {
+      "not_retained": 355,
+      "retained": 282
+    },
+    "foil_source:binary-complement": {
+      "retained": 398,
+      "not_retained": 2
+    },
+    "foil_source:donor:infoseek_val_00000104": {
+      "not_retained": 6
+    },
+    "foil_source:donor:infoseek_val_00000129": {
+      "retained": 2
+    },
+    "foil_source:donor:infoseek_val_00000134": {
+      "retained": 2
+    },
+    "foil_source:donor:infoseek_val_00000160": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00000213": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00000412": {
+      "not_retained": 3
+    },
+    "foil_source:donor:infoseek_val_00000653": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00000821": {
+      "retained": 2
+    },
+    "foil_source:donor:infoseek_val_00000845": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00001063": {
+      "retained": 2
+    },
+    "foil_source:donor:infoseek_val_00001232": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00001438": {
+      "not_retained": 2
+    },
+    "foil_source:donor:infoseek_val_00001564": {
+      "not_retained": 2
+    },
+    "foil_source:donor:infoseek_val_00001785": {
+      "not_retained": 4
+    },
+    "foil_source:donor:infoseek_val_00001845": {
+      "not_retained": 1,
+      "retained": 5
+    },
+    "foil_source:donor:infoseek_val_00001870": {
+      "retained": 2
+    },
+    "foil_source:donor:infoseek_val_00001899": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00001959": {
+      "not_retained": 2
+    },
+    "foil_source:donor:infoseek_val_00002027": {
+      "not_retained": 5
+    },
+    "foil_source:donor:infoseek_val_00002073": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00002369": {
+      "not_retained": 2
+    },
+    "foil_source:donor:infoseek_val_00002597": {
+      "not_retained": 5
+    },
+    "foil_source:donor:infoseek_val_00002662": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00002698": {
+      "not_retained": 6
+    },
+    "foil_source:donor:infoseek_val_00002739": {
+      "not_retained": 3
+    },
+    "foil_source:donor:infoseek_val_00002803": {
+      "not_retained": 3
+    },
+    "foil_source:donor:infoseek_val_00002831": {
+      "not_retained": 4
+    },
+    "foil_source:donor:infoseek_val_00003080": {
+      "not_retained": 6
+    },
+    "foil_source:donor:infoseek_val_00003210": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00003241": {
+      "not_retained": 3
+    },
+    "foil_source:donor:infoseek_val_00003276": {
+      "not_retained": 3
+    },
+    "foil_source:donor:infoseek_val_00003317": {
+      "not_retained": 1,
+      "retained": 1
+    },
+    "foil_source:donor:infoseek_val_00003484": {
+      "retained": 6,
+      "not_retained": 3
+    },
+    "foil_source:donor:infoseek_val_00003637": {
+      "retained": 4
+    },
+    "foil_source:donor:infoseek_val_00003714": {
+      "not_retained": 2
+    },
+    "foil_source:donor:infoseek_val_00003745": {
+      "not_retained": 2
+    },
+    "foil_source:donor:infoseek_val_00003815": {
+      "not_retained": 3
+    },
+    "foil_source:donor:infoseek_val_00007215": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00007550": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00007625": {
+      "not_retained": 2
+    },
+    "foil_source:donor:infoseek_val_00041689": {
+      "not_retained": 3
+    },
+    "foil_source:donor:infoseek_val_00041792": {
+      "not_retained": 3
+    },
+    "foil_source:donor:infoseek_val_00041845": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00041872": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00041907": {
+      "not_retained": 3
+    },
+    "foil_source:donor:infoseek_val_00041933": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00041941": {
+      "not_retained": 1,
+      "retained": 1
+    },
+    "foil_source:donor:infoseek_val_00042074": {
+      "not_retained": 3
+    },
+    "foil_source:donor:infoseek_val_00042099": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00042117": {
+      "not_retained": 4
+    },
+    "foil_source:donor:infoseek_val_00042172": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00042341": {
+      "not_retained": 2
+    },
+    "foil_source:donor:infoseek_val_00042358": {
+      "not_retained": 1
+    },
+    "foil_source:donor:infoseek_val_00042394": {
+      "not_retained": 3,
+      "retained": 2
+    },
+    "foil_source:donor:infoseek_val_00042429": {
+      "not_retained": 3
+    },
+    "foil_source:donor:infoseek_val_00042467": {
+      "not_retained": 3
+    },
+    "foil_source:donor:infoseek_val_00042491": {
+      "not_retained": 1
+    },
+    "foil_source:donor:oven_mteb_5_100420": {
+      "retained": 6
+    },
+    "foil_source:donor:oven_mteb_5_110700": {
+      "not_retained": 4
+    },
+    "foil_source:donor:oven_mteb_5_111697": {
+      "not_retained": 1
+    },
+    "foil_source:donor:oven_mteb_5_113781": {
+      "retained": 3
+    },
+    "foil_source:donor:oven_mteb_5_115319": {
+      "not_retained": 1
+    },
+    "foil_source:donor:oven_mteb_5_119123": {
+      "retained": 1
+    },
+    "foil_source:donor:oven_mteb_5_121828": {
+      "not_retained": 3
+    },
+    "foil_source:donor:oven_mteb_5_14656": {
+      "retained": 1
+    },
+    "foil_source:donor:oven_mteb_5_1873": {
+      "retained": 1
+    },
+    "foil_source:donor:oven_mteb_5_30750": {
+      "retained": 1
+    },
+    "foil_source:donor:oven_mteb_5_32150": {
+      "retained": 1
+    },
+    "foil_source:donor:oven_mteb_5_35801": {
+      "retained": 1
+    },
+    "foil_source:donor:oven_mteb_5_39742": {
+      "retained": 2
+    },
+    "foil_source:donor:oven_mteb_5_45993": {
+      "not_retained": 1
+    },
+    "foil_source:donor:oven_mteb_5_63367": {
+      "retained": 2
+    },
+    "foil_source:donor:oven_mteb_5_82753": {
+      "not_retained": 1
+    },
+    "foil_source:donor:oven_mteb_5_88118": {
+      "not_retained": 1
+    },
+    "foil_source:donor:oven_mteb_5_91491": {
+      "retained": 1
+    },
+    "foil_source:donor:oven_mteb_5_91885": {
+      "retained": 4
+    },
+    "foil_source:donor:oven_mteb_5_95473": {
+      "not_retained": 1
+    },
+    "foil_source:donor:oven_mteb_5_97153": {
+      "not_retained": 3
+    },
+    "foil_source:stable-wrong-baseline": {
+      "not_retained": 302,
+      "retained": 262
+    },
+    "task:controlled:BoolQ": {
+      "retained": 95,
+      "not_retained": 7
+    },
+    "task:controlled:InfoSeek": {
+      "not_retained": 163,
+      "retained": 38
+    },
+    "task:controlled:OVEN-MTEB": {
+      "not_retained": 140,
+      "retained": 35
+    },
+    "task:controlled:StrategyQA": {
+      "retained": 99,
+      "not_retained": 14
+    },
+    "task:natural:BoolQ": {
+      "retained": 4,
+      "not_retained": 8
+    },
+    "task:natural:InfoSeek": {
+      "retained": 23,
+      "not_retained": 34
+    },
+    "task:natural:StrategyQA": {
+      "not_retained": 1
+    }
+  },
+  "downstream_subsets": {
+    "majority": {
+      "controlled_cases": 281,
+      "controlled_records": 737,
+      "natural_cases": 29
+    },
+    "pair_claude-opus-5__grok-4.6": {
+      "controlled_cases": 294,
+      "controlled_records": 754,
+      "natural_cases": 33
+    },
+    "pair_gpt-6-astra__claude-opus-5": {
+      "controlled_cases": 270,
+      "controlled_records": 717,
+      "natural_cases": 29
+    },
+    "pair_gpt-6-astra__grok-4.6": {
+      "controlled_cases": 275,
+      "controlled_records": 732,
+      "natural_cases": 38
+    },
+    "single_claude-opus-5": {
+      "controlled_cases": 305,
+      "controlled_records": 767,
+      "natural_cases": 36
+    },
+    "single_gpt-6-astra": {
+      "controlled_cases": 279,
+      "controlled_records": 737,
+      "natural_cases": 43
+    },
+    "single_grok-4.6": {
+      "controlled_cases": 320,
+      "controlled_records": 802,
+      "natural_cases": 47
+    },
+    "tier_a_strict": {
+      "controlled_cases": 267,
+      "controlled_records": 713,
+      "natural_cases": 27
+    },
+    "two_valid": {
+      "controlled_cases": 271,
+      "controlled_records": 724,
+      "natural_cases": 29
+    }
+  },
+  "integrity": {
+    "manifest_sha256": "435ef45dd4e283503f4acea77bfb1cfb95496b4b160f5e955824d901a8d7023d",
+    "raw_files": 4030,
+    "raw_aggregate_sha256": "9aa3bd2c2c6fff52d4efa20b3d4c57e8984656d2353378e0dc6b4f2d247c9788"
+  }
+}

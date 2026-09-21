@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Accuracy (\%) & Repairs & Damage & Answer calls & Answer tokens \\
+\midrule
+Original & 59.22 & 0 & 0 & 591 & 1,624,503 \\
+Cross-encoder & 58.71 & 9 & 12 & 591 & 1,622,859 \\
+LLM relevance & 59.39 & 9 & 8 & 591 & 1,625,466 \\
+Credibility & 58.54 & 12 & 16 & 591 & 1,625,522 \\
+Four-order vote & 58.88 & 6 & 8 & 2,364 & 6,503,342 \\
+Repeated original (2) & 59.39 & 3 & 2 & 1,182 & 3,248,995 \\
+\bottomrule
+\end{tabular}

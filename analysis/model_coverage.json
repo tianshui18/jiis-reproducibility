@@ -1,0 +1,384 @@
+{
+  "scope": "Saved result JSON only, excluding caches and quarantine; root model fields count record objects, NOT calls or independent samples.",
+  "inventory_by_stage": {
+    "action_value_validation_v1": {
+      "Qwen/Qwen3-VL-8B-Instruct": 100
+    },
+    "causal_evidence_pilot_v1": {
+      "Qwen/Qwen3-VL-8B-Instruct": 40
+    },
+    "diagnostic_probe2": {
+      "Qwen/Qwen3-VL-8B-Instruct": 2
+    },
+    "diagnostic_v1": {
+      "Qwen/Qwen3-VL-8B-Instruct": 60
+    },
+    "kbs_credibility_v1": {
+      "gemini-3.8-flash": 300,
+      "Qwen/Qwen3-VL-8B-Instruct": 300
+    },
+    "kbs_gemini38_probe2_image": {
+      "gemini-3.8-flash": 1
+    },
+    "kbs_gemini38_probe2_text": {
+      "gemini-3.8-flash": 1
+    },
+    "kbs_gemini38_probe_image": {
+      "gemini-3.8-flash": 1
+    },
+    "kbs_gemini38_probe_text": {
+      "gemini-3.8-flash": 1
+    },
+    "kbs_gemini38_v1": {
+      "gemini-3.8-flash": 592
+    },
+    "kbs_mechanism_v1": {
+      "Pro/moonshotai/Kimi-K2.6": 40,
+      "Qwen/Qwen3-VL-8B-Instruct": 40,
+      "zai-org/GLM-4.5V": 40,
+      "Qwen/Qwen3.5-9B": 40
+    },
+    "kbs_natural_boolq_v1": {
+      "Qwen/Qwen3.5-9B": 200,
+      "gemini-3.8-flash": 200,
+      "zai-org/GLM-4.5V": 200,
+      "Pro/moonshotai/Kimi-K2.6": 200,
+      "Qwen/Qwen3-VL-8B-Instruct": 200
+    },
+    "kbs_natural_v1": {
+      "Qwen/Qwen3-VL-8B-Instruct": 434,
+      "Pro/moonshotai/Kimi-K2.6": 434,
+      "gemini-3.8-flash": 434,
+      "Qwen/Qwen3.5-9B": 434,
+      "zai-org/GLM-4.5V": 434
+    },
+    "natural_order_oven_v1": {
+      "Qwen/Qwen3.5-9B": 30,
+      "Pro/moonshotai/Kimi-K2.6": 30,
+      "Qwen/Qwen3-VL-8B-Instruct": 30,
+      "zai-org/GLM-4.5V": 30
+    },
+    "order_confirmatory_v1": {
+      "Qwen/Qwen3-VL-8B-Instruct": 253,
+      "Pro/moonshotai/Kimi-K2.6": 226,
+      "zai-org/GLM-4.5V": 254,
+      "Qwen/Qwen3.5-9B": 230
+    },
+    "probe_v1": {
+      "Qwen/Qwen3-VL-8B-Instruct": 1
+    },
+    "smoke_v1": {
+      "zai-org/GLM-4.5V": 6,
+      "Qwen/Qwen3-VL-8B-Instruct": 6
+    },
+    "strategyqa_action_value_v1": {
+      "Qwen/Qwen3-VL-8B-Instruct": 100
+    },
+    "strategyqa_probe_v1": {
+      "Qwen/Qwen3-VL-8B-Instruct": 2
+    },
+    "validation_probe2": {
+      "Qwen/Qwen3-VL-8B-Instruct": 2
+    },
+    "validation_v1": {
+      "Qwen/Qwen3-VL-8B-Instruct": 100
+    }
+  },
+  "gemini_screening": {
+    "questions": 400,
+    "baseline_success": 1199,
+    "baseline_planned": 1200,
+    "support_success": 176,
+    "support_planned": 177
+  },
+  "gemini_controlled": {
+    "planned_records": 192,
+    "complete_records": 189,
+    "successful_conditions": 765,
+    "planned_conditions": 768
+  },
+  "gemini_natural": {
+    "BoolQ": {
+      "planned_questions": 200,
+      "complete_records": 198,
+      "successful_main_conditions": 998,
+      "planned_main_conditions": 1000,
+      "complete_conflict_pairs": 12
+    },
+    "InfoSeek": {
+      "planned_questions": 200,
+      "complete_records": 189,
+      "successful_main_conditions": 985,
+      "planned_main_conditions": 1000,
+      "complete_conflict_pairs": 52
+    },
+    "StrategyQA": {
+      "planned_questions": 200,
+      "complete_records": 199,
+      "successful_main_conditions": 999,
+      "planned_main_conditions": 1000,
+      "complete_conflict_pairs": 1
+    }
+  },
+  "ranking_common_by_reader": {
+    "Qwen/Qwen3-VL-8B-Instruct": {
+      "original": {
+        "n": 300,
+        "correct": 168,
+        "accuracy": 0.56,
+        "repairs": 0,
+        "damage": 0,
+        "vs_original": {
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "clusters": 300
+        }
+      },
+      "random": {
+        "n": 300,
+        "correct": 165,
+        "accuracy": 0.55,
+        "repairs": 6,
+        "damage": 9,
+        "vs_original": {
+          "difference": -0.01,
+          "ci95": [
+            -0.03333333333333333,
+            0.016666666666666666
+          ],
+          "clusters": 300
+        }
+      },
+      "reverse": {
+        "n": 300,
+        "correct": 164,
+        "accuracy": 0.5466666666666666,
+        "repairs": 5,
+        "damage": 9,
+        "vs_original": {
+          "difference": -0.013333333333333334,
+          "ci95": [
+            -0.03666666666666667,
+            0.01
+          ],
+          "clusters": 300
+        }
+      },
+      "cross_encoder": {
+        "n": 300,
+        "correct": 164,
+        "accuracy": 0.5466666666666666,
+        "repairs": 5,
+        "damage": 9,
+        "vs_original": {
+          "difference": -0.013333333333333334,
+          "ci95": [
+            -0.03666666666666667,
+            0.01
+          ],
+          "clusters": 300
+        }
+      },
+      "llm_reranker": {
+        "n": 300,
+        "correct": 166,
+        "accuracy": 0.5533333333333333,
+        "repairs": 3,
+        "damage": 5,
+        "vs_original": {
+          "difference": -0.006666666666666667,
+          "ci95": [
+            -0.02666666666666667,
+            0.01
+          ],
+          "clusters": 300
+        }
+      },
+      "credibility": {
+        "n": 300,
+        "correct": 162,
+        "accuracy": 0.54,
+        "repairs": 6,
+        "damage": 12,
+        "vs_original": {
+          "difference": -0.02,
+          "ci95": [
+            -0.04666666666666667,
+            0.006666666666666667
+          ],
+          "clusters": 300
+        }
+      },
+      "permutation_vote": {
+        "n": 300,
+        "correct": 165,
+        "accuracy": 0.55,
+        "repairs": 4,
+        "damage": 7,
+        "vs_original": {
+          "difference": -0.01,
+          "ci95": [
+            -0.03333333333333333,
+            0.01
+          ],
+          "clusters": 300
+        }
+      },
+      "budget_matched_self_consistency": {
+        "n": 300,
+        "correct": 168,
+        "accuracy": 0.56,
+        "repairs": 1,
+        "damage": 1,
+        "vs_original": {
+          "difference": 0.0,
+          "ci95": [
+            -0.01,
+            0.01
+          ],
+          "clusters": 300
+        }
+      }
+    },
+    "gemini-3.8-flash": {
+      "original": {
+        "n": 291,
+        "correct": 182,
+        "accuracy": 0.6254295532646048,
+        "repairs": 0,
+        "damage": 0,
+        "vs_original": {
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "clusters": 291
+        }
+      },
+      "random": {
+        "n": 291,
+        "correct": 184,
+        "accuracy": 0.6323024054982818,
+        "repairs": 5,
+        "damage": 3,
+        "vs_original": {
+          "difference": 0.006872852233676976,
+          "ci95": [
+            -0.010309278350515464,
+            0.027491408934707903
+          ],
+          "clusters": 291
+        }
+      },
+      "reverse": {
+        "n": 291,
+        "correct": 182,
+        "accuracy": 0.6254295532646048,
+        "repairs": 2,
+        "damage": 2,
+        "vs_original": {
+          "difference": 0.0,
+          "ci95": [
+            -0.013745704467353952,
+            0.013745704467353952
+          ],
+          "clusters": 291
+        }
+      },
+      "cross_encoder": {
+        "n": 291,
+        "correct": 183,
+        "accuracy": 0.6288659793814433,
+        "repairs": 4,
+        "damage": 3,
+        "vs_original": {
+          "difference": 0.003436426116838488,
+          "ci95": [
+            -0.013745704467353952,
+            0.020618556701030927
+          ],
+          "clusters": 291
+        }
+      },
+      "llm_reranker": {
+        "n": 291,
+        "correct": 185,
+        "accuracy": 0.6357388316151202,
+        "repairs": 6,
+        "damage": 3,
+        "vs_original": {
+          "difference": 0.010309278350515464,
+          "ci95": [
+            -0.010309278350515464,
+            0.030927835051546393
+          ],
+          "clusters": 291
+        }
+      },
+      "credibility": {
+        "n": 291,
+        "correct": 184,
+        "accuracy": 0.6323024054982818,
+        "repairs": 6,
+        "damage": 4,
+        "vs_original": {
+          "difference": 0.006872852233676976,
+          "ci95": [
+            -0.013745704467353952,
+            0.027491408934707903
+          ],
+          "clusters": 291
+        }
+      },
+      "permutation_vote": {
+        "n": 291,
+        "correct": 183,
+        "accuracy": 0.6288659793814433,
+        "repairs": 2,
+        "damage": 1,
+        "vs_original": {
+          "difference": 0.003436426116838488,
+          "ci95": [
+            -0.006872852233676976,
+            0.01718213058419244
+          ],
+          "clusters": 291
+        }
+      },
+      "budget_matched_self_consistency": {
+        "n": 291,
+        "correct": 183,
+        "accuracy": 0.6288659793814433,
+        "repairs": 2,
+        "damage": 1,
+        "vs_original": {
+          "difference": 0.003436426116838488,
+          "ci95": [
+            -0.006872852233676976,
+            0.013745704467353952
+          ],
+          "clusters": 291
+        }
+      }
+    }
+  },
+  "gemini_ranking_answer_conditions": {
+    "planned": 2700,
+    "success": 2672
+  },
+  "candidate_labelers": {
+    "gemini-3.8-flash": 1200
+  },
+  "valid_candidate_labels": 1183,
+  "excluded_from_confirmatory_evidence": {
+    "probes": "Connectivity and schema tests are not benchmark evaluations.",
+    "screening": "Defines eligibility; not a fresh evaluation replicate.",
+    "candidate_labels": "Evaluation annotations, not independent reader models.",
+    "older_pilots": "Different questions, protocols and exploratory selection; not pooled as extra confirmation.",
+    "gemini_robustness": "Not run: wording/distractor and controlled-repeat subsets have four endpoints."
+  }
+}

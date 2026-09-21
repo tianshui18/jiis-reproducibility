@@ -1,0 +1,1 @@
+case_id,annotator_id,codebook_version,task,question,accepted_answers,support_text,foil_text,support_label,support_quote,support_confidence,support_rationale,foil_label,foil_quote,foil_confidence,foil_rationale,question_underspecified,started_at_utc,completed_at_utc

@@ -1,0 +1,1 @@
+case_id,candidate_id,annotator_id,codebook_version,task,question,accepted_answers,reader_visible_text,candidate_label,evidence_quote,confidence,rationale,question_underspecified,started_at_utc,completed_at_utc
