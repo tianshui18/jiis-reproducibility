@@ -23,6 +23,3 @@ Recommended: Python 3.11+, NumPy, Matplotlib, pandas, statsmodels, PyMuPDF, Pill
 
 Gateway-routed endpoints and judge services were logged by requested alias. The archive does not independently authenticate provider checkpoints. The three-family audit is automatic cross-alias agreement, not human semantic validation.
 
-## License
-
-No reuse license is granted by this generated package. The author should add an employer-approved code license and a compatible data license before public release. Third-party benchmark and retrieved content remain subject to their original terms.
